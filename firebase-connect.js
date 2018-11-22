@@ -1,6 +1,6 @@
 const Firebase = require('./lib/firebase');
 
-const config = require('./firebase-config');
+const config = require('./config/firebase-config');
 const firebaseConnection = new Firebase(config, '/', true);
 
 (async () => {
