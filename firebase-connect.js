@@ -1,7 +1,7 @@
 const Firebase = require('./lib/firebase');
 
 const config = require('./firebase-config');
-const firebaseConnection = new Firebase(config);
+const firebaseConnection = new Firebase(config, '/', true);
 
 (async () => {
   // Save to database
