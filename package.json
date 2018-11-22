@@ -1,0 +1,10 @@
+{
+  "name": "firebase-connect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Martín M.",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^5.5.8"
+  }
+}
